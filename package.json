@@ -1,0 +1,29 @@
+{
+  "name": "karma-jspm-babel-seed",
+  "version": "1.0.0",
+  "description": "Seed app for using Karma with JSPM and Babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js",
+    "postinstall": "jspm install"
+  },
+  "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
+  "license": "MIT",
+  "jspm": {
+    "directories": {},
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-babel-preprocessor": "^5.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.1",
+    "karma-phantomjs-launcher": "^0.2.1"
+  }
+}
