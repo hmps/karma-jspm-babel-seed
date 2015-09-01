@@ -16,3 +16,4 @@ Install all dependencies:
 
 1. Add your javascript files in the *src* folder.
 2. Add your unit tests in the *test/unit* folder. Make sure to name the *.spec.js*.
+3. Run `npm test` to run all the tests in your test/unit folder.
